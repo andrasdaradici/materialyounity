@@ -18,7 +18,8 @@ Before you begin, make sure you have the necessary assets for your app's icons:
 
 - `ic_launcher_background.png` (Colored background image)
 - `ic_launcher_foreground.png` (Colored foreground image)
-  - Small notice: No idea why the foreground icon decided to not render so (as you can see in the example icons) I have merged the foreground element into the background image and it renders well that way. I've got no idea at all why this happens.
+  - ~~Small notice: No idea why the foreground icon decided to not render so (as you can see in the example icons) I have merged the foreground element into the background image and it renders well that way. I've got no idea at all why this happens.~
+  - The issue was that I was an idiot and named the foreground to background and vice-versa, all is good.
 - `ic_launcher_monochrome.png` (White icon on transparent background)
 
 Ensure these images are sized appropriately (e.g., 432x432 px for the icon) and follow the Material You icon design standards.
