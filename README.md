@@ -46,7 +46,8 @@ In your **AndroidManifest.xml** file, add the following:
 ```xml
 <application
     android:icon="@mipmap/ic_launcher"
-    android:label="@string/app_name">
+    android:roundIcon="@mipmap/ic_launcher"
+    tools:replace="android:icon,android:roundIcon">
     <!-- Other configurations and permissions -->
 </application>
 ```
